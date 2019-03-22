@@ -116,7 +116,6 @@
 	            <filtering>false</filtering>
 	        </resource>
 	    </resources>
-		<pluginManagement>
 		  <plugins>  
 		  		<plugin>  
                     <artifactId>maven-compiler-plugin</artifactId>  
@@ -137,7 +136,6 @@
 	                </executions>
 		        </plugin>  
 		    </plugins>  
-		</pluginManagement>
 	</build>
     
 	<repositories>  
