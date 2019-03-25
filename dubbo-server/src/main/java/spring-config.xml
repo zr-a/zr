@@ -19,7 +19,7 @@
 	<dubbo:annotation package="com.zl.dubbotest" />
 	
     <!-- 提供方应用信息，用于计算依赖关系 -->  
-    <dubbo:application name="helloservice_provider"  />  
+    <dubbo:application name="dubbo-demo-service"  />  
    
     <!-- 使用zookeeper注册中心暴露服务地址 -->  
     <dubbo:registry address="${dubbo.registry}" />   
@@ -28,6 +28,6 @@
     <dubbo:protocol name="dubbo" port="${dubbo.port}" />  
    
     <!-- 声明需要暴露的服务接口 -->  
-    <!-- <dubbo:service interface="com.zl.dubbotest.api.HelloService" ref="helloServiceImpl" />  -->
+    <dubbo:service interface="com.zl.dubbotest.api.HelloService" ref="helloServiceImpl" />
     
 </beans>
