@@ -109,7 +109,7 @@
 		<finalName>dubbo-server</finalName>
 		<resources>  
 	        <resource>  
-	            <directory>src/main/resources</directory>
+	            <directory>src/main/java</directory>
 	            <includes>
 	                <include>**/*</include>
 	            </includes>
