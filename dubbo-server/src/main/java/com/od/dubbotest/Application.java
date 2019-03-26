@@ -1,4 +1,4 @@
-package com.zl.dubbotest;
+package com.od.dubbotest;
 
 import java.io.IOException;
 

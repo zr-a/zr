@@ -1,8 +1,8 @@
-package com.zl.dubbotest.service.impl;
+package com.od.dubbotest.service.impl;
 
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.zl.dubbotest.api.HelloService;
+import com.od.dubbotest.api.HelloService;
 
 @Service
 public class HelloServiceImpl implements HelloService {
