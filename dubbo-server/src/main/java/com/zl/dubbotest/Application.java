@@ -10,7 +10,7 @@ public class Application {
     public static void main( String[] args) throws IOException {
         SpringApplication.run("classpath*:spring-config.xml",args);
         System.out.println("Dubbo server started");
-        System.out.println("按任意键退出");
-		System.in.read();
+        System.out.println("Dubbo 服务端已经启动");
+		//System.in.read();
     }
 }
