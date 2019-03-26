@@ -11,7 +11,7 @@ public class Application {
         SpringApplication.run("classpath*:spring-config.xml",args);
         System.out.println("Dubbo server started");
         System.out.println("Dubbo 服务端已经启动");
-        while true {
+        while(true) {
             System.in.read();
         }
     }
