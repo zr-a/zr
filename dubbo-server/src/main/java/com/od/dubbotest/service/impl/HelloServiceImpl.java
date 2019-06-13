@@ -9,6 +9,6 @@ public class HelloServiceImpl implements HelloService {
 
 	public String hello(String name) {
 		System.out.println("HelloService接收到消息:"+name);
-		return "你好呀 " + name;
+		return "hello " + name;
 	}
 }
